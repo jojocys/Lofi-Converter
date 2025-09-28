@@ -2,16 +2,9 @@
 streamlit==1.29.0
 yt-dlp==2024.8.6
 
-# Audio processing
+# Audio processing - simplified for Streamlit Cloud
 pydub==0.25.1
-scipy==1.11.4
 numpy==1.24.3
-soundfile==0.12.1
-librosa==0.10.1
-audioread==3.0.1
 
 # FFmpeg python wrapper (for audio conversion)
 ffmpeg-python==0.2.0
-
-# Optional but recommended for better performance
-numba==0.58.1  # Speeds up librosa operations
