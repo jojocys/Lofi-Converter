@@ -1,0 +1,25 @@
+# Core dependencies
+streamlit==1.29.0
+yt-dlp==2024.1.0
+
+# Audio processing
+pydub==0.25.1
+scipy==1.11.4
+numpy==1.24.3
+soundfile==0.12.1
+librosa==0.10.1
+audioread==3.0.1
+
+# FFmpeg python wrapper (for audio conversion)
+ffmpeg-python==0.2.0
+
+# Additional utilities
+uuid==1.30
+pathlib==1.0.1
+
+# Optional but recommended for better performance
+numba==0.58.1  # Speeds up librosa operations
+
+# For the music module (if using external libraries for effects)
+pedalboard==0.8.7  # For audio effects processing
+resampy==0.4.2  # For high-quality audio resampling
